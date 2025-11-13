@@ -36,4 +36,14 @@ public class programa1
     }
     }
   --codigo4
-  
+  using System;
+
+public class programa1
+{
+public static void Main(string[] args)
+{
+string nombre = "Juan Camilo Ibarra Sanchez";
+int edad = 18;
+Console.WriteLine(String.Format("Nombre: {0}, Edad: {1}", nombre, edad));
+}
+}
