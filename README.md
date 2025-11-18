@@ -170,7 +170,6 @@ namespace MyApplication
   }
 }
 // decimo code
-Nombre Sean Pool Sierra Ortega
 
  
 using System;
@@ -207,7 +206,7 @@ class Program
    
    }
 }
---codigo 12
+//codigo 12
 using System;
 public class HelloWorld
 {
