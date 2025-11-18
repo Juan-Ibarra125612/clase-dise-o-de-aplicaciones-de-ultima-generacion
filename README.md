@@ -310,3 +310,28 @@ public class HelloWorld
         Console.WriteLine("El valor redondeado del resultado es: " + redondeado);
     }
 }
+
+//codigo20
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        Console.WriteLine("La longitud del texto es de: "+ txt.Length);
+    }
+}
+
+//codigo21
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("ingrese su direccion: ");
+        string direccion = Console.ReadLine();
+        Console.WriteLine("------------------------");
+        Console.WriteLine("Direccion: " + direccion);
+        Console.WriteLine("La longitud de la direccion es de: " + direccion.Length);
+    }
+}
