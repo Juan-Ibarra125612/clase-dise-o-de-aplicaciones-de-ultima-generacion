@@ -216,9 +216,9 @@ public class HelloWorld
         string nombre = Console.ReadLine();
         Console.Write("Ingrese su edad: ");
         int edad = int.Parse(Console.ReadLine());
-        Console.Write("ingrese su direccion");
+        Console.Write("ingrese su direccion: ");
         string direccion= Console.ReadLine();
-        Console.Write("Ingrese su email");
+        Console.Write("Ingrese su email: ");
         string email= Console.ReadLine();
         Console.WriteLine("------------------------");
         Console.WriteLine("Nombre: "+ nombre);
@@ -333,5 +333,29 @@ public class HelloWorld
         Console.WriteLine("------------------------");
         Console.WriteLine("Direccion: " + direccion);
         Console.WriteLine("La longitud de la direccion es de: " + direccion.Length);
+    }
+}
+
+//codigo22
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Ingrese su nombre completo: ");
+        string nombre = Console.ReadLine();
+        string nombremayus = nombre.ToUpper();
+        Console.Write("Ingrese su edad: ");
+        int edad = int.Parse(Console.ReadLine());
+        Console.Write("ingrese su direccion: ");
+        string direccion = Console.ReadLine();
+        Console.Write("Ingrese su email: ");
+        string email = Console.ReadLine();
+        string emailminus = email.ToLower();
+        Console.WriteLine("------------------------");
+        Console.WriteLine("Nombre: " + nombremayus);
+        Console.WriteLine("Edad: " + edad);
+        Console.WriteLine("Direccion: " + direccion);
+        Console.WriteLine("Email: " + emailminus);
     }
 }
