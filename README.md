@@ -227,3 +227,86 @@ public class HelloWorld
         Console.WriteLine("Email: "+ email);    
     }
 }
+
+//codigo13
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        double x = Math.Pow((2 + 4),2);
+        double y = Math.Pow((4*8),3);
+        double resultado = x/y;
+        Console.WriteLine("el resultado es" +resultado);
+            }
+}
+
+//codigo14
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int max=Math.Max(5, 10);   
+        Console.WriteLine("el valor maximo es: "+max);
+    }
+}
+
+//codigo15
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int min = Math.Min(5, 10);
+        Console.WriteLine("el valor minimo es: " + min);
+    }
+}
+
+//codigo16
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        double raiz = Math.Sqrt(64);
+        Console.WriteLine("La raiz de 64 es: " + raiz);
+    }
+}
+
+//codigo17
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        double valorabs = Math.Abs(-4.7);
+        Console.WriteLine("El valor absoluto es: " + valorabs);
+    }
+}
+
+//codigo18
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        double redondeado = Math.Round(9.99);
+        Console.WriteLine("El valor redondeado de 9.99 es: " + redondeado);
+    }
+}
+
+//codigo19
+using System;
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        double x = Math.Pow((2 + 4), 2);
+        double y = Math.Pow((4 * 8), 3);
+        double resultado = x / y;
+        Console.WriteLine("el resultado es: " + resultado);
+        double redondeado = Math.Round(resultado);
+        Console.WriteLine("El valor redondeado del resultado es: " + redondeado);
+    }
+}
