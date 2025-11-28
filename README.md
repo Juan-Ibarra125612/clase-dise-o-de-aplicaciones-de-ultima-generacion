@@ -429,6 +429,7 @@ public class HelloWorld
 }
 
 //codigo24
+using System;
 class car
 {
     private string model="Mustang";
