@@ -428,3 +428,13 @@ public class HelloWorld
     }
 }
 
+//codigo24
+class car
+{
+    private string model="Mustang";
+    static void Main(string[] args)
+    {
+        car myObj = new car();
+        Console.WriteLine(myObj.model);
+    }
+}
