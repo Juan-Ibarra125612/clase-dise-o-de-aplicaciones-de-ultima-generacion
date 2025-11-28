@@ -439,3 +439,18 @@ class car
         Console.WriteLine(myObj.model);
     }
 }
+//codigo--25
+using System;
+class car
+{
+    public string model = "Mustang";
+}
+class Program
+{ 
+    static void Main(string[] args)
+    {
+        car myObj = new car();
+        Console.WriteLine(myObj.model);
+    }
+}
+
