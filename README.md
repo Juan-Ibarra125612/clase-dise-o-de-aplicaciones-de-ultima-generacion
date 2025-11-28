@@ -49,7 +49,7 @@ namespace trabajo1
     {
         public static void Main(string[] args)
         {
-            string nombre = "sean sierra ";
+            string nombre = "Juan Ibarra ";
             int edad = 18;
             Console.WriteLine("nombre:"+nombre + "edad" +edad);
             
