@@ -454,3 +454,23 @@ class Program
     }
 }
 
+//codigo-26
+class person
+{
+    private string name;
+    public string Name
+    {
+        get { return name; }
+        set { name = value; }
+    }
+}
+class Program
+{
+    static void Main(string[] args)
+    {
+        person myObj = new person();
+        myObj.Name = "Liam";
+        Console.WriteLine(myObj.Name);
+    }
+}
+
